@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89658bd3-7882-480f-94e3-025dc6d9f1de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/spring/springintroduction/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/spring/springintroduction/DogTest.java" afterDir="false" />
+    <list default="true" id="89658bd3-7882-480f-94e3-025dc6d9f1de" name="Changes" comment="new project spring">
+      <change afterPath="$PROJECT_DIR$/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/spring/springintroduction/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/spring/springintroduction/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/spring/springintroduction/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/spring/springintroduction/DogTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/spring/springintroduction/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/spring/springintroduction/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/spring/springintroduction/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mariia/spring/springintroduction/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mariia/spring/springintroduction/DogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +48,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/margo/Projects/spring-course&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PersonTest">
     <configuration name="DogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mariia.spring.springintroduction.DogTest" />
       <module name="spring-course" />
@@ -62,9 +62,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DogTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mariia.spring.springintroduction.DogTest2" />
+      <module name="spring-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mariia.spring.springintroduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mariia.spring.springintroduction.PersonTest" />
+      <module name="spring-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mariia.spring.springintroduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DogTest" />
+        <item itemvalue="Application.PersonTest" />
+        <item itemvalue="Application.DogTest2" />
+        <item itemvalue="Application.com.mariia.spring.springintroduction.DogTest" />
       </list>
     </recent_temporary>
   </component>
@@ -77,6 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1661776789882</updated>
     </task>
+    <task id="LOCAL-00001" summary="new project spring">
+      <created>1661778684479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661778684479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new project spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project spring" />
   </component>
 </project>
